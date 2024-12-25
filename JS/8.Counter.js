@@ -26,3 +26,9 @@ const counterFunction = (n) => {
     return count++;
   };
 };
+
+const count = counterFunction(10);
+
+console.log(count());
+console.log(count());
+console.log(count());
