@@ -15,7 +15,7 @@
 // Output: 200
 // Explanation: It should return a promise that resolves after 200ms.
 
-//Solution:
+//Solution: (Beats: 88.02%)
 
 const sleep = async (millis) =>
   await new Promise((resolve) => setTimeout(() => resolve(), millis));
